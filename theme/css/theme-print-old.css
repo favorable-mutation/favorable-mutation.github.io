@@ -1,0 +1,131 @@
+html {
+  background-color: #0e0c15;
+  color: #dbd0b9;
+  display: flex;
+  font-family: 'IBM Plex Mono', sans-serif;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+}
+
+div.resume {
+  font-size: 0.75vw;
+  width: 90vw;
+}
+
+header {
+  margin-top: 2.5em;
+  margin-bottom: 1.9em;
+}
+
+address {
+  font-style: normal;
+}
+
+div.contact {
+  font-size: 5.5em;
+  margin-bottom: 0.09em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.contact > a {
+  text-decoration: none;
+}
+
+a.title {
+  color: #991a51;
+}
+
+a.icon {
+  color: #705095;
+  display: flex;
+}
+
+div.bio {
+  color: #99998e;
+  font-size: 1.6em;
+  justify-content: space-between;
+  display: flex;
+}
+
+div.bio > div {
+  margin: 0 0.25em;
+}
+
+main {
+  font-size: 2.2em;
+}
+
+section {
+}
+
+div.skills {
+  background-color: #00cfb5;
+  color: #0e0c15;
+  font-size: 1.15em;
+  margin-bottom: 1em;
+  justify-content: space-around;
+  display: flex;
+}
+
+h3 {
+  font-size: 1.45em;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+div.header {
+  align-items: center;
+  background-color: rgba(184, 217, 217, 0.45);
+  color: #0e0c15;
+  display: flex;
+}
+
+h4 {
+  flex-basis: 8em;
+  font-size: 0.95em;
+  font-weight: 600;
+  margin: 0.25em 0.75em;
+  width: auto;
+}
+
+div.info {
+  /* TODO put all h4's in divs, use bkgd color on those, h5's go in with them,
+   * very light blue, indent them a bit from the left of the box */
+  display: flex;
+  margin: 0.75em;
+  width: 80%;
+}
+
+h5 {
+  font-size: 0.7em;
+  font-weight: 600;
+  margin: 0.2em 0 0 0;
+}
+
+h4, h5.company, h5.location, h5.date {
+  flex-grow: 1;
+}
+
+h5.company {
+  flex-basis: 7em;
+  margin-left: 0.75em;
+}
+
+h5.location {
+  flex-basis: 0;
+}
+
+h5.date {
+  flex-basis: 3em;
+}
+
+ul {
+  font-size: 0.8em;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+}
