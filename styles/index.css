@@ -1,0 +1,77 @@
+h4 {
+  color: inherit;
+}
+.page-width {
+  width: 45rem;
+}
+.entry-width {
+  width: 98.5%;
+}
+.half-entry-width {
+  width: 47.25%;
+}
+.parent-width {
+  width: inherit;
+}
+.flex-column-left, .flex-column-centered, .flex-column-right, .flex-row-centered, .flex-row-left, .flex-row-centered-bottom {
+  display: flex;
+}
+.flex-column-centered, .flex-row-centered, .flex-row-centered-bottom {
+  align-items: center;
+}
+.flex-row-centered, .flex-row-centered-bottom {
+  justify-content: center;
+}
+.flex-row-left {
+  justify-content: flex-start;
+}
+.flex-row-centered-bottom {
+  align-items: flex-end;
+}
+.flex-column-left, .flex-column-centered, .flex-column-right {
+  flex-direction: column;
+}
+.flex-column-left {
+  align-items: flex-start;
+}
+.flex-column-right {
+  align-items: flex-end;
+}
+.y-margin-mini {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.y-margin-tiny {
+  margin-top: 0.05rem;
+  margin-bottom: 0.05rem;
+}
+.y-margin-small, .b-margin-small {
+  margin-bottom: 0.75rem;
+}
+.y-margin-small, .t-margin-small {
+  margin-top: 0.75rem;
+}
+.r-margin-tiny, .x-margin-tiny {
+  margin-right: 0.25rem;
+}
+.l-margin-tiny, .x-margin-tiny {
+  margin-left: 0.25rem;
+}
+.r-margin-small, .x-margin-small {
+  margin-right: 0.5rem;
+}
+.l-margin-small, .x-margin-small {
+  margin-left: 0.5rem;
+}
+.r-margin-medium, .x-margin-medium {
+  margin-right: 1.5rem;
+}
+.l-margin-medium, .x-margin-medium {
+  margin-left: 1.5rem;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-align-right {
+  text-align: right;
+}
