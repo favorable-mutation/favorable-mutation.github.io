@@ -1,6 +1,12 @@
 html {
   font-size: 13px;
 }
+body {
+  margin-bottom: 0;
+}
 .page-width {
-  width: 59rem;
+  width: 56rem;
+}
+.y-margin-small {
+  margin-bottom: 0.5rem;
 }

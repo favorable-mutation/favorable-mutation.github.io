@@ -1,8 +1,11 @@
+body {
+  margin-bottom: 2rem;
+}
 h4 {
   color: inherit;
 }
 .page-width {
-  width: 45rem;
+  width: 53rem;
 }
 .entry-width {
   width: 98.5%;
@@ -13,19 +16,22 @@ h4 {
 .parent-width {
   width: inherit;
 }
-.flex-column-left, .flex-column-centered, .flex-column-right, .flex-row-centered, .flex-row-left, .flex-row-centered-bottom {
+.flex-column-left, .flex-column-centered, .flex-column-right, .flex-row-centered, .flex-row-left, .flex-row-between-bottom {
   display: flex;
 }
-.flex-column-centered, .flex-row-centered, .flex-row-centered-bottom {
+.flex-column-centered, .flex-row-centered, .flex-row-between-bottom {
   align-items: center;
 }
-.flex-row-centered, .flex-row-centered-bottom {
+.flex-row-centered {
   justify-content: center;
+}
+.flex-row-between-bottom {
+  justify-content: space-between;
 }
 .flex-row-left {
   justify-content: flex-start;
 }
-.flex-row-centered-bottom {
+.flex-row-between-bottom {
   align-items: flex-end;
 }
 .flex-column-left, .flex-column-centered, .flex-column-right {
